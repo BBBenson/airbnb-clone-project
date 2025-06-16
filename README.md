@@ -84,3 +84,33 @@ QA/Testers	Write test cases, perform manual and automated testing, report bugs
 DevOps Engineers	Set up deployment pipelines, manage CI/CD, ensure server scalability and security
 Product Owner	Define project vision, prioritize features, represent stakeholder needs
 Scrum Master	Facilitate agile ceremonies, remove blockers, track sprint progress
+
+🧱 UI Component Patterns
+These are the planned reusable components for the frontend:
+
+🔝 Navbar
+Logo
+
+Search bar
+
+User menu
+
+Responsive layout
+
+🏡 Property Card
+Property image thumbnail
+
+Price, location, rating
+
+Favorite (like) button
+
+Mobile-friendly design
+
+🔻 Footer
+Navigation links (e.g., About, Contact)
+
+Social media icons
+
+Copyright info
+
+Responsive layout
