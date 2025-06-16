@@ -74,3 +74,13 @@ Improved accessibility and branding alignment
 
 Easier team collaboration between designers and developers
 
+👥 Project Roles and Responsibilities
+Role	Responsibilities
+Project Manager	Oversees timelines, team coordination, and delivery tracking
+Frontend Developers	Build user interfaces, implement responsive and accessible design
+Backend Developers	Develop RESTful APIs, manage databases, and integrate business logic
+Designers	Create UI mockups, maintain design systems, and ensure UX quality
+QA/Testers	Write test cases, perform manual and automated testing, report bugs
+DevOps Engineers	Set up deployment pipelines, manage CI/CD, ensure server scalability and security
+Product Owner	Define project vision, prioritize features, represent stakeholder needs
+Scrum Master	Facilitate agile ceremonies, remove blockers, track sprint progress
