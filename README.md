@@ -114,3 +114,17 @@ Social media icons
 Copyright info
 
 Responsive layout
+
+
+
+🖼️ Airbnb Clone – Backend
+
+
+Team Roles and Responsibilities
+
+- Project Manager**: Oversees the entire development lifecycle, ensures milestones are met, and facilitates communication across the team.
+- Frontend Developer**: Implements UI components and ensures responsive, accessible interfaces using React.
+- Backend Developer**: Handles server-side logic, builds RESTful and GraphQL APIs, and integrates third-party services.
+- Database Administrator (DBA)**: Designs and manages the relational database schema, optimizes queries, and ensures data integrity.
+- DevOps Engineer**: Sets up CI/CD pipelines, configures containers, and manages deployment workflows.
+- QA Engineer**: Writes test cases, performs bug tracking, and ensures quality assurance.
