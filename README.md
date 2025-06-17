@@ -138,7 +138,7 @@ Backend Technology Stack
 - GitHub Actions: Automation tool for CI/CD workflows, enabling continuous integration and deployment.
 - React: JavaScript library for building the frontend user interface.
 
-Database Design Overview
+Backend Database Design Overview
 
 Key Entities and Fields
 
