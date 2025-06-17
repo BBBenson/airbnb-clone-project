@@ -183,3 +183,19 @@ Relationships
 - Reviews are written by users for properties
 - Payments are associated with bookings
 
+Backend Feature Breakdown
+
+
+- User Management: Users can register, log in, and manage their profiles. Hosts can list properties while guests can book them.
+
+- Property Management: Hosts can add, update, or remove property listings including photos, descriptions, and availability.
+
+- Booking System: Guests can book properties for specific dates, with availability checks and total price calculations.
+
+- Review System: After a stay, users can leave a review and rate the property and host.
+
+- Payment Integration: A secure payment gateway handles transactions for bookings, storing payment status and methods.
+
+- Search & Filter: Users can browse listings using filters like location, price, amenities, and availability.
+
+- Admin Panel: Admins can manage users, properties, bookings, and reports for maintenance and support.
