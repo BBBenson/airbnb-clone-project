@@ -122,12 +122,12 @@ Responsive layout
 
 Team Roles and Responsibilities
 
-- Project Manager**: Oversees the entire development lifecycle, ensures milestones are met, and facilitates communication across the team.
-- Frontend Developer**: Implements UI components and ensures responsive, accessible interfaces using React.
-- Backend Developer**: Handles server-side logic, builds RESTful and GraphQL APIs, and integrates third-party services.
-- Database Administrator (DBA)**: Designs and manages the relational database schema, optimizes queries, and ensures data integrity.
-- DevOps Engineer**: Sets up CI/CD pipelines, configures containers, and manages deployment workflows.
-- QA Engineer**: Writes test cases, performs bug tracking, and ensures quality assurance.
+- Project Manager: Oversees the entire development lifecycle, ensures milestones are met, and facilitates communication across the team.
+- Frontend Developer: Implements UI components and ensures responsive, accessible interfaces using React.
+- Backend Developer: Handles server-side logic, builds RESTful and GraphQL APIs, and integrates third-party services.
+- Database Administrator (DBA): Designs and manages the relational database schema, optimizes queries, and ensures data integrity.
+- DevOps Engineer: Sets up CI/CD pipelines, configures containers, and manages deployment workflows.
+- QA Engineer: Writes test cases, performs bug tracking, and ensures quality assurance.
 
 Backend Technology Stack
 
@@ -137,3 +137,49 @@ Backend Technology Stack
 - Docker: Containerization platform for packaging and deploying the application in isolated environments.
 - GitHub Actions: Automation tool for CI/CD workflows, enabling continuous integration and deployment.
 - React: JavaScript library for building the frontend user interface.
+
+Database Design Overview
+
+Key Entities and Fields
+
+1. Users
+   - id
+   - username
+   - email
+   - password
+   - is_host (boolean)
+
+2. Properties
+   - id
+   - title
+   - description
+   - price_per_night
+   - owner_id (FK to Users)
+
+3. Bookings
+   - id
+   - user_id (FK to Users)
+   - property_id (FK to Properties)
+   - start_date
+   - end_date
+
+4. Reviews
+   - id
+   - user_id (FK to Users)
+   - property_id (FK to Properties)
+   - rating
+   - comment
+
+5. Payments
+   - id
+   - booking_id (FK to Bookings)
+   - amount
+   - payment_status
+   - payment_method
+
+Relationships
+- A user can own multiple properties
+- A booking links a user and a property
+- Reviews are written by users for properties
+- Payments are associated with bookings
+
