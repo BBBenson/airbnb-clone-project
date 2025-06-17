@@ -128,3 +128,12 @@ Team Roles and Responsibilities
 - Database Administrator (DBA)**: Designs and manages the relational database schema, optimizes queries, and ensures data integrity.
 - DevOps Engineer**: Sets up CI/CD pipelines, configures containers, and manages deployment workflows.
 - QA Engineer**: Writes test cases, performs bug tracking, and ensures quality assurance.
+
+Technology Stack Overview
+
+- Django: Backend web framework used for building the application logic and APIs.
+- MySQL: Relational database system to manage and store structured application data.
+- GraphQL: API query language that allows clients to request only the data they need.
+- Docker: Containerization platform for packaging and deploying the application in isolated environments.
+- GitHub Actions: Automation tool for CI/CD workflows, enabling continuous integration and deployment.
+- React: JavaScript library for building the frontend user interface.
