@@ -129,7 +129,7 @@ Team Roles and Responsibilities
 - DevOps Engineer**: Sets up CI/CD pipelines, configures containers, and manages deployment workflows.
 - QA Engineer**: Writes test cases, performs bug tracking, and ensures quality assurance.
 
-Technology Stack
+Backend Technology Stack
 
 - Django: Backend web framework used for building the application logic and APIs.
 - MySQL: Relational database system to manage and store structured application data.
