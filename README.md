@@ -199,3 +199,36 @@ Backend Feature Breakdown
 - Search & Filter: Users can browse listings using filters like location, price, amenities, and availability.
 
 - Admin Panel: Admins can manage users, properties, bookings, and reports for maintenance and support.
+
+
+Backend API Security
+
+- Authentication: Only registered users can access protected endpoints using token-based or session-based authentication.
+
+- Authorization: Role-based access control to prevent unauthorized data access (e.g., only property owners can update their listings).
+
+- Rate Limiting: Protects against DDoS and brute-force attacks by limiting the number of requests per time frame.
+
+- Input Validation: Prevents injection attacks by sanitizing user inputs on both frontend and backend.
+
+- Data Encryption: Sensitive user data like passwords are encrypted using hashing algorithms (e.g., bcrypt).
+
+Importance
+- Ensures user data protection and privacy.
+- Maintains transaction security for payments.
+- Prevents unauthorized access to critical resources.
+
+Backend CI/CD Pipeline
+
+What is CI/CD?
+CI/CD (Continuous Integration and Continuous Deployment) automates the integration and deployment of code, allowing for faster, more reliable software delivery.
+
+Tools and Workflow
+- GitHub Actions: Automates testing and deployment pipelines on every commit or pull request.
+- Docker: Ensures environment consistency from development to production by containerizing the app.
+- Testing Tools: Unit and integration tests are executed during the CI phase to catch bugs early.
+
+Benefits
+- Minimizes deployment errors and manual work.
+- Speeds up the delivery process.
+- Maintains high code quality and system reliability.
